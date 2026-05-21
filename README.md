@@ -46,4 +46,4 @@ git clone https://github.com/bayjid-alom/donate-today.git
 
 ## 👨‍💻 Author
 
-Developed by Bayjid Alom.
+Developed by Md. Bayjid Alom. 
