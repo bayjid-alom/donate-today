@@ -224,9 +224,14 @@
 
 
             <div class="subcribe bg-[#FFF4D6] rounded-lg py-9 lg:py-20 mx-auto flex flex-row justify-center ">
-                <div class="max-w-[432px] mx-auto">
-                    <input class="bg-[#FFF4D6] border border-gray-300 shadow-lg rounded-md py-3.5 px-5 pl-3" type="email" placeholder="Email">
-                    <button class="bg-[#FF5959] rounded-md text-white py-3.5 px-5">Subscribe</button>
+                <div class="lg:max-w-[432px] mx-auto flex-col gap-3 lg:gap-0 flex lg:flex-row  lg:justify-center">
+                    <input
+                        class="w-full lg:w-[70%]  bg-[#FFF4D6] rounded-lg  border-none border-gray-300 shadow-lg md:rounded-tl-lg md:rounded-bl-lg py-3.5 px-5 pl-3"
+                        type="email" placeholder="Email">
+                    <button
+                        class="w-full lg:w-[30%] bg-[#FF5959] rounded-lg   md:rounded-tr-lg md:rounded-br-lg text-white py-3.5 px-5">Subscribe
+                        <span class="md:hidden"><i class="fa-regular fa-bell"></i></span>
+                    </button>
                 </div>
             </div>
         </section>
